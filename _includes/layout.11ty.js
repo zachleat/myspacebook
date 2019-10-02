@@ -159,7 +159,12 @@ class Layout {
 		var email = document.getElementById("msb-email");
 		if(form, email && "endsWith" in new String("")) {
 			email.addEventListener("input", function(e) {
-				if(e.target.value.endsWith("nasa.gov")) {
+				if(e.target.value.endsWith("nasa.gov") ||
+					e.target.value.endsWith("esa.int") ||
+					e.target.value.endsWith("isro.gov.in") ||
+					e.target.value.endsWith("jaxa.jp") ||
+					e.target.value.endsWith("roscosmos.ru") ||
+					e.target.value.endsWith("cnsa.gov.cn")) {
 					form.setAttribute("action", "/success/");
 				}
 			});
