@@ -46,12 +46,11 @@ class Layout {
 		}
 
 		.msb-hed {
-			margin-bottom: 2em;
+			margin: 0 0 2em;
 		}
 		.msb-logo {
 			display: block;
 			position: relative;
-			line-height: 1;
 			overflow: hidden;
 			text-decoration: none;
 		}
@@ -61,6 +60,7 @@ class Layout {
 		}
 		.msb-logo:before {
 			content: "×";
+			line-height: 0.6;
 			font-family: Arial Black;
 			font-weight: 900;
 			font-size: 20em;
@@ -68,7 +68,7 @@ class Layout {
 		.msb-logo:after {
 			content: "";
 			position: absolute;
-			top: 60px;
+			top: 0;
 			left: 50%;
 			transform: translateX(-50%);
 			background-color: orange;
@@ -79,7 +79,9 @@ class Layout {
 		}
 
 		.msb-main {
-			margin: 0 .5em;
+			margin: 0 auto;
+			padding: 0 .5em;
+			max-width: 53.125em; /* 850px /16 */
 		}
 		.msb-register,
 		.msb-register input,
