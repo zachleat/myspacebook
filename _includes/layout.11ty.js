@@ -22,6 +22,7 @@ class Layout {
 		body {
 			font-family: Helvetica, sans-serif;
 			text-align: center;
+			padding-top: 1em;
 		}
 		label {
 			white-space: nowrap;
@@ -36,8 +37,10 @@ class Layout {
 
 		.msb-emoji {
 			font-size: 7vw;
-			margin: 0;
 			width: 100%;
+		}
+		.msb-emoji.msb-emoji {
+			margin: 0;
 		}
 		@media (min-width: 64em) { /* 1024px */
 			.msb-emoji {
@@ -71,8 +74,9 @@ class Layout {
 			top: 0;
 			left: 50%;
 			transform: translateX(-50%);
-			background-color: orange;
-			opacity: .85;
+			background: #FFB701;
+			background: linear-gradient(to top, #FFB701, #F3D47A);
+			opacity: .95;
 			border-radius: 50%;
 			width: 6em;
 			height: 6em;
