@@ -36,7 +36,7 @@ class Layout {
 		}
 
 		.msb-emoji {
-			font-size: 7vw;
+			font-size: 6.5vw;
 			width: 100%;
 		}
 		.msb-emoji.msb-emoji {
