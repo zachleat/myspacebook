@@ -9,7 +9,7 @@ class Layout {
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>MySpaceBook</title>
+		<title>myspacebook</title>
 		<style>
 		* {
 			box-sizing: border-box;
@@ -163,7 +163,7 @@ class Layout {
 		<script>
 		var form = document.getElementById("msb-register");
 		var email = document.getElementById("msb-email");
-		if(form, email && "endsWith" in new String("")) {
+		if(form && email && "endsWith" in new String("")) {
 			email.addEventListener("input", function(e) {
 				if(e.target.value.endsWith("nasa.gov") ||
 					e.target.value.endsWith("esa.int") ||
