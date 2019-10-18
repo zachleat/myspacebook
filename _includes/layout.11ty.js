@@ -101,6 +101,9 @@ class Layout {
 			border-radius: .5em;
 			padding: 1em;
 		}
+		.msb-seeya {
+			text-align: left;
+		}
 		.msb-register input[type="email"] {
 			width: 11em;
 		}
